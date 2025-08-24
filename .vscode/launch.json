@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "LabFinal",
+      "request": "launch",
+      "mainClass": "LabFinal",
+      "projectName": "your-project-name"
+    },
+    {
+      "type": "java",
+      "name": "LabFinal",
+      "request": "launch",
+      "mainClass": "LabFinal",
+      "projectName": "Lab Final"
+    },
+    {
+      "type": "java",
+      "name": "Launch JavaFX App",
+      "request": "launch",
+      "mainClass": "src.LabFinal",
+      "vmArgs": "--module-path \"C:\\Program Files\\Java\\javafx-sdk-24.0.1\\lib\" --add-modules javafx.controls --enable-native-access=ALL-UNNAMED",
+      "classPaths": [
+        "lib\\bson-5.5.0.jar",
+        "lib\\mongodb-driver-core-5.5.0.jar",
+        "lib\\mongodb-driver-sync-5.5.0.jar"
+      ]
+    }
+  ]
+}
